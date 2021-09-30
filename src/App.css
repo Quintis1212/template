@@ -1,0 +1,165 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+}
+
+.links-wrapper {
+  margin-left: 300px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-wrapper {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.links-wrapper > a {
+  color: rgb(141, 135, 135);
+  border-bottom: 2px solid transparent;
+}
+
+.links-wrapper > a:hover,
+.log-out-link:hover {
+  color: white;
+  border-color: aqua;
+}
+.log-out-link-wrapper {
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+
+.log-out-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.log-out-link {
+  color: rgb(141, 135, 135);
+  border-bottom: 2px solid transparent;
+}
+
+.dashboard-wrapper {
+  width: 70%;
+  background-color: azure;
+  padding: 20px;
+  border-radius: 20px;
+  height: fit-content;
+}
+
+.filters {
+  display: flex;
+}
+
+.filter-item > input {
+  width: 60%;
+  border-radius: 10px;
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.instances-wrapper {
+  background-color: azure;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+
+.dashboard-currency {
+  background-color: azure;
+  padding: 20px;
+  border-radius: 20px;
+  width: 350px;
+}
+
+.dashboard-currency > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-currency > div > select {
+  width: 30%;
+}
+
+.dashboard-currency > div > p {
+  width: 65%;
+}
+
+.dashboard-table-head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  padding: 10px 0;
+  border-top: 2px solid rgb(143, 141, 141);
+  border-bottom: 2px solid black;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.row-pair {
+  flex-basis: 114px;
+}
+
+.row-buyPrice {
+  flex-basis: 58px;
+  text-align: center;
+}
+
+.row-sellExch {
+  flex-basis: 85px;
+  text-align: center;
+}
+
+.row-sellPrice {
+  flex-basis: 56px;
+  text-align: center;
+}
+
+.row-amount {
+  flex-basis: 86px;
+  text-align: center;
+}
+
+.row-arb {
+  flex-basis: 82px;
+  text-align: center;
+}
+
+.row-profit {
+  flex-basis: 65px;
+  text-align: center;
+}
+
+.row-fees {
+  flex-basis: 55px;
+  text-align: center;
+}
+
+.row-adj {
+  flex-basis: 24px;
+  text-align: center;
+}
+
+.instances {
+  display: flex;
+  justify-content: space-between;
+}
+
+.instances > div {
+  flex-basis: 26%;
+  text-align: center;
+}
